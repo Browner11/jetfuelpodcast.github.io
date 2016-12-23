@@ -69,6 +69,9 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+iframe {
+	padding-top:0px;
+}
 .alignleft {
     text-align: left;
 }
@@ -162,7 +165,7 @@ h3.subtitle {
 
 /* social */
 .social {
-    padding: 30px 0 0 0;
+    padding: 30px 0 100px 0;
 
 }
 
