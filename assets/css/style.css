@@ -8,16 +8,48 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,300,700,900');
  html,body { height: 100%; margin: 0px; padding: 0px; }
 body {
-	background: #394864;
-    font-family: 'Lato', sans-serif;
+	background: url(../img/darkblue.jpg);
+    background-size: cover;
+	font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
     line-height: 1.6em;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
+	
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.5);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+li a:focus {
+	color: #002e62;
+}
+
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -55,7 +87,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #4F92AF;
+    color: #002e62;
     text-decoration: none;
     outline: 0;
 }
@@ -134,7 +166,6 @@ form.signup input.form-control:focus {
 #wrapper {
 	text-align: center;
 	padding: 5% 0 0 0;
-	background: url(../img/main-bg-jets.jpg);
 	width: 100%;	
     height: 100%;
     background-size: cover;
@@ -147,6 +178,7 @@ form.signup input.form-control:focus {
 	margin-bottom: 40px;
 	color: #fff;
 	font-size: 45px;
+	font-variant:small-caps;
 	font-weight: 900;
 	letter-spacing: -1px;
 }
