@@ -46,7 +46,7 @@ li a:hover {
 }
 
 li a:focus {
-	color: #002e62;
+	color: #ff2b00;
 }
 
 }
@@ -87,7 +87,13 @@ a {
 
 a:hover,
 a:focus {
-    color: #002e62;
+    color: #ff2b00;
+    text-decoration: none;
+    outline: 0;
+}
+
+.currentpage {
+	color: #ff2b00;
     text-decoration: none;
     outline: 0;
 }
@@ -178,7 +184,6 @@ form.signup input.form-control:focus {
 	margin-bottom: 40px;
 	color: #fff;
 	font-size: 45px;
-	font-variant:small-caps;
 	font-weight: 900;
 	letter-spacing: -1px;
 }
@@ -210,7 +215,7 @@ h3.subtitle {
 }
 
 .social a:hover {
-    color: #002e62;
+    color: #ff2b00;
 }
 
 /* countdown */
@@ -223,7 +228,9 @@ h3.subtitle {
 /* content */
 .content {
 	padding-bottom:20px;
+	color: #fff;
 }
+
 
 /* footer */
 .footer {
