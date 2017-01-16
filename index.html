@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 
-    <title>Fueled By Passion</title>
+    <title>Fueled By Fans</title>
 
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 	<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
 	<link href="assets/css/font-awesome.css" rel="stylesheet">
 
-    <!-- siimple style -->
+    <!-- css style -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css?v=2">
     
   </head>
@@ -35,12 +35,19 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h1>Welcome to the Jet Fuel Podcast website!</h1>
-					<h3>Give a listen to our latest episode below or dig through some past episodes under the podcast tab.<h3>
+					<h3>Check out our latest episode and recent tweets below. Past episodes can be found under the "Podcast" tab.<h3>
 					<div class="row">
 						<div class="col-md-12">
 							<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/302887162&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 						</div>
 					</div>	
+					<div class="row">
+						<div class="col-md-12">
+							<div class="tweets">
+								<a class="twitter-timeline" data-theme="light" href="https://twitter.com/JetFuelPodcast" data-width="100%"  data-tweet-limit="6">Tweets by JetFuelPodcast</a> 
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>	
 		</div>
@@ -49,13 +56,28 @@
 			<div class="row">
 				<div class="col-lg-12">
 						<p class="copyright">&copy; Jet Fuel Podcast - All Rights Reserved</p>
-                        
-				</div>		
+                </div>		
 			</div>
 		</div>
 	</div>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+	<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
     
 </body>
 </html>
