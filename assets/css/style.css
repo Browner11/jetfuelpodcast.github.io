@@ -286,7 +286,6 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   color: #cbc6c1;
 }
 
-
 header {
   position: relative;
   margin: 100px 0 25px 0;
@@ -299,7 +298,7 @@ header {
 #form {
   position: relative;
   width: 500px;
-  margin: 50px auto 100px auto;
+  margin: 30px auto 100px auto;
 }
 
 input {
