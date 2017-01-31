@@ -163,20 +163,25 @@ h3.subtitle {
 
 /* social */
 .social {
-    padding: 30px 20px 50px 20px;
+    padding: 20px 20px 20px 20px;
 
 }
 
 .social a {
     font-size: 24px;
     color: #fff;
-    padding: 0 30px;
+	padding: 20px 0px 0px 0px;
     transition: all 0.3s;
 	
 }
 
 .social a:hover {
     color: #ff2b00;
+}
+
+.social h4 {
+	font-weight: 400;
+	font-size: 16px;
 }
 
 /* countdown */
