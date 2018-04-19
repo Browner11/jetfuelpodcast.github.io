@@ -63,15 +63,13 @@ function formHasErrors()
 	//assume the form has no errors
 	var errorflag = false;
 
-	//an array of textfield ids to chekc if the user has entered a value 
+	//an array of textfield ids to check if the user has entered a value 
 	var requiredTextFields = ["name", "phone", "email", "comments"];
 
 	// loop through the texfields ids
 	for(var i = 0; i < requiredTextFields.length; i++)
 	{
-		// gets an object form the DOM using the id of the current element
-		// var textfield = document.getElementById(requiredTextFields[i]);
-		
+			
 		// determine if the textfield has input
 		if((document.getElementById(requiredTextFields[i])).value == "" || (document.getElementById(requiredTextFields[i])).value == null)
 		{
